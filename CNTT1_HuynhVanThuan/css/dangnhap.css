@@ -1,0 +1,41 @@
+.a{
+    margin: 50px auto;
+    
+}
+.a h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #555555;
+    font-size: 20px;
+}
+.a a{
+    text-decoration: none;
+    color: red;
+}
+.a a:hover{
+    color: pink
+}
+.b{
+    margin: 50px auto;
+    
+}
+.b h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #555555;
+    font-size: 20px;
+}
+.b a{
+    text-decoration: none;
+    color: white;
+}
+.b a:hover{
+    color: pink
+}
+/*back to top  */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+

@@ -1,0 +1,64 @@
+/* CSS cho mobile */
+@media only screen and (max-width: 767px) {
+    body {
+
+        font-size: 14px;
+    }
+
+    div.carousel {
+        display: none;
+    }
+
+    div.col-lg-6 {
+        display: none;
+    }
+
+    div.col-lg-7 {
+        display: none;
+    }
+
+    div.demo {
+        display: none;
+    }
+
+    .row>img {
+        display: none;
+    }
+
+    .danhmuc>img {
+        display: none;
+    }
+
+    .container-fluid>img {
+        display: none;
+    }
+    
+}
+
+/* CSS cho tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+
+    div.col-lg-6 {
+        display: none;
+    }
+
+    div.col-lg-7 {
+        display: none;
+    }
+
+    .danhmuc>img {
+        display: none;
+    }
+    
+    
+}
+
+/* CSS cho laptop */
+@media only screen and (min-width: 1025px) {
+    body {
+        font-size: 18px;
+    }
+}
